@@ -1,4 +1,4 @@
-package io.hearty.wearsteptracker.app;
+package io.hearty.android.app;
 
 import android.util.Log;
 
