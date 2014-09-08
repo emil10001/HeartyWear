@@ -8,12 +8,16 @@
 			android:text="@string/steps"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal|bottom"
+			android:textSize="24sp"
 			android:layout_weight="1"/>
 
 	<TextView
 			android:id="@+id/steps"
+			android:layout_gravity="center_horizontal|top"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
+			android:textSize="24sp"
 			android:layout_weight="1"/>
 
 </LinearLayout>

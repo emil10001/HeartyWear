@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 		  package="io.hearty.android.app">
 
+	<!-- HeartyWear -->
+
 	<uses-feature android:name="android.hardware.type.watch" android:required="false"/>
 
 	<application
@@ -25,10 +27,9 @@
 				<action android:name="vnd.google.fitness.VIEW" />
 				<data android:mimeType="vnd.google.fitness.data_type/com.google.step_count.cumulative" />
 			</intent-filter>
-
 		</activity>
 
-		<service android:name=".WearStepService"/>
+		<service android:name=".WearStepService" />
 
 		<receiver android:name=".AlarmNotify">
 			<intent-filter>
